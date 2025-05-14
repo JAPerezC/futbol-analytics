@@ -1,7 +1,12 @@
-venv/
-__pycache__/
-*.pyc
+# Entornos virtuales
+.venv/
+.venvfut/
+
+# Archivos de instalación editable
+*.egg-info/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
-data/raw/*
-data/processed/*
-.qodo
+
+# Archivos de VSCode
+.vscode/
